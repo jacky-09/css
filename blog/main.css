@@ -1,0 +1,117 @@
+/*页面顶部的短横线，用于侧边栏布局的导航*/
+.page-header {
+    text-align: center;
+    padding: 15px 45px;
+    padding-top: 0px;
+    padding-right: 45px;
+    padding-bottom: 30px;
+    padding-left: 45px;
+}
+.page-header .line {
+    width: 60px;
+    height: 3px;
+    background-color: #70bfe0f1;
+    margin: 5px auto;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+}
+.page-header .h2, h2 {
+    font-size: 2rem;
+}
+/*文章详情页面，markdown美化，不含代码高亮*/
+/*图片大小限定*/
+#article > img{
+    width: 100%;
+}
+/*引用块*/
+#article > blockquote p {
+    border-left: 5px solid #ddd;
+    color: #777;
+    padding-left: .9375rem;
+}
+/*note笔记标签*/
+#article > .note-info {
+    width: 75%;
+    color: grey;
+    border-left: 5px solid #428bca;
+    background-color: #cbe9f3;
+    padding: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+#article > .note-warn {
+    width: 75%;
+    color: grey;
+    border-left: 5px solid #f0ad4e;
+    background-color: #fdf8ea;
+    padding: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+#article > .note-primary {
+    width: 75%;
+    color: grey;
+    border-left: 5px solid #6f42c1;
+    background-color: #f5f0fa;
+    padding: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+#article > .note-success {
+    width: 75%;
+    color: grey;
+    border-left: 5px solid #5eba5e;
+    background-color: #dff1df;
+    padding: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+#article > .note-danger {
+    width: 75%;
+    color: grey;
+    border-left: 5px solid #db5757;
+    background-color: #f8dddd;
+    padding: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+/*特殊按键表示*/
+#article > kbd {
+    padding: .2rem .4rem;
+    font-size: 87.5%;
+    color: #fff;
+    background-color: #212529;
+    border-radius: .2rem;
+}
+/*按钮*/
+#article > .btn {
+    background-color: #1dbad6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+#article > .btn-yellow {background-color: #f9fd0b}
+#article > .btn-green {background-color: #2cd874}
+#article > .btn-red {background-color: #db524d}
+#article > .btn-shadow:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
