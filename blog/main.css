@@ -1,9 +1,54 @@
-/*文章字体*/
-#article > p {
+/*文章markdown的美化*/
+#article p {
     font-family: alibaba-sans, source-han-serif-sc, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: large;
+}
+#article code {
+    background-color: #fff4d9;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #6d5439;
+}
+#article p strong {
+    font-family: alibaba-sans, source-han-serif-sc, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: large;
+}
+#article h2 {
+    margin-top: 1em;
+    margin-bottom: 0.4em;
+    font-family: alibaba-sans, source-han-serif-sc, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.3rem;
+    border-left: 5px solid #53cbff;
+    padding-left: 16px;
+}
+#article h3 {
+    margin-top: 1em;
+    margin-bottom: 0.4em;
+    font-family: alibaba-sans, source-han-serif-sc, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2rem;
+    border-left: 5px solid rgb(21, 202, 111);
+    padding-left: 16px;
+}
+#article h3 {
+    margin-top: 1em;
+    margin-bottom: 0.4em;
+    font-family: alibaba-sans, source-han-serif-sc, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2rem;
+    border-left: 5px solid rgb(221, 29, 189);
+    padding-left: 16px;
 }
 /*页面顶部的短横线，用于侧边栏布局的导航*/
 .page-header {
