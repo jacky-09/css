@@ -18,7 +18,7 @@
 ## 引用
 建议使用jsdelivr的加速cdn或者直接下载或者复制，这里只说cdn的引用方式，在HTML文件的head中写入：
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jackyfzh/css@master/blog/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jackyfzh/css@latest/blog/main.css">
 ```
 
 ## 使用
