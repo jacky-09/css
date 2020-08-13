@@ -1,3 +1,10 @@
+/*文章字体*/
+#article > p {
+    font-family: alibaba-sans, source-han-serif-sc, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
 /*页面顶部的短横线，用于侧边栏布局的导航*/
 .page-header {
     text-align: center;
