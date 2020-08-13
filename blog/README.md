@@ -38,9 +38,12 @@
 <div class="note-success">success<br>成功</div>
 <div class="note-danger">danger<br>危险</div>
 ```
-4. 引用可以使用markdown，会自动解析：
+4. 引用，粗体和普通文字和小代码块可以使用markdown，也做了美化，会自动解析：
 ```markdown
 > 应用部分
+**粗体部分**
+普通文字
+``小代码块``
 ```
 也可以是HTML：
 ```html
