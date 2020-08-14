@@ -6,25 +6,16 @@
     font-size: large;
 }
 #article code {
-    background-color: #fff4d9;
-    border-radius: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    color: #6d5439;
-}
-#article p strong {
-    font-family: alibaba-sans, source-han-serif-sc, sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    font-size: large;
+    margin-left: .2em;
+    margin-right: .2em;
+    color: #868686;
+    font-size: .9em;
 }
 #article h2 {
     margin-top: 1em;
     margin-bottom: 0.4em;
     font-family: alibaba-sans, source-han-serif-sc, sans-serif;
-    font-weight: 700;
+    font-weight: 800;
     font-style: normal;
     font-size: 1.3rem;
     border-left: 5px solid #53cbff;
@@ -34,7 +25,7 @@
     margin-top: 1em;
     margin-bottom: 0.4em;
     font-family: alibaba-sans, source-han-serif-sc, sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
     font-size: 1.2rem;
     border-left: 5px solid rgb(21, 202, 111);
@@ -76,6 +67,8 @@
 /*图片大小限定*/
 #article > img{
     width: 100%;
+    max-width: 100%;
+    border-radius: 20px;
 }
 /*引用块*/
 #article > blockquote p {
