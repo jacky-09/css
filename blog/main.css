@@ -1,10 +1,4 @@
 /*文章markdown的美化*/
-#article p {
-    font-family: alibaba-sans, source-han-serif-sc, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: large;
-}
 #article code {
     margin-left: .2em;
     margin-right: .2em;
