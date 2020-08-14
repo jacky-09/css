@@ -68,7 +68,7 @@
 /*文章详情页面，markdown美化，不含代码高亮*/
 /*图片大小限定*/
 #article > img{
-    width: 100%;
+    width: 80%;
     max-width: 100%;
     border-radius: 20px;
 }
