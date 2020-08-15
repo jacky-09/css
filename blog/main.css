@@ -1,4 +1,10 @@
 /*文章markdown的美化*/
+#article > blockquote p {
+    border-left: 5px solid #ddd;
+    color: #777;
+    padding-left: .9375rem;
+    margin-left: 10px;
+}
 #article code {
     margin-left: .2em;
     margin-right: .2em;
@@ -74,13 +80,6 @@
     width: 80%;
     max-width: 100%;
     border-radius: 20px;
-}
-/*引用块*/
-#article > blockquote p {
-    border-left: 5px solid #ddd;
-    color: #777;
-    padding-left: .9375rem;
-    margin-left: 10px;
 }
 /*note笔记标签*/
 #article > .note-info {
