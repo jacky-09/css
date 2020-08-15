@@ -22,6 +22,7 @@
     font-size: 1.3rem;
     border-left: 5px solid #53cbff;
     padding-left: 16px;
+    margin-left: 10px;
 }
 #article h3 {
     margin-top: 1em;
@@ -32,6 +33,7 @@
     font-size: 1.2rem;
     border-left: 5px solid rgb(21, 202, 111);
     padding-left: 16px;
+    margin-left: 10px;
 }
 #article h4 {
     margin-top: 1em;
@@ -42,6 +44,7 @@
     font-size: 1.2rem;
     border-left: 5px solid rgb(221, 29, 189);
     padding-left: 16px;
+    margin-left: 10px;
 }
 /*页面顶部的短横线，用于侧边栏布局的导航*/
 .page-header {
@@ -77,6 +80,7 @@
     border-left: 5px solid #ddd;
     color: #777;
     padding-left: .9375rem;
+    margin-left: 10px;
 }
 /*note笔记标签*/
 #article > .note-info {
